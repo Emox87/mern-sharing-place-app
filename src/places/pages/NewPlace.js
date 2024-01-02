@@ -39,8 +39,8 @@ const NewPlace = () => {
     inputs: {
       title: { value: "", isValid: false },
       description: { value: "", isValid: false },
-      isValid: false,
     },
+    isValid: false,
   });
 
   const inputHandler = useCallback(
